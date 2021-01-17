@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+
+  <title>zadatak_inchoo</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">VSS</a>
+      <div class="d-flex">
+        <div class="dugme">
+          <button id="shopping-cart-toggle" class="button"><i class="fas fa-shopping-cart fa-2x"></i></button>
+
+          <div class="shopping-cart-containter vis-none">
+
+            <div class="modal-body">
+              <div class="shopping-cart-items">
+                <p class="mb-4"><strong>My cart items (5 items)</strong></p>
+                <button type="button" class="new-slick-button mt-2" id="nazad"><i
+                    class="fas fa-arrow-up fa-xs"></i></button>
+                <ul class="shopping-cart-blok">
+                  <div>
+                    <li class="sekcija">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <img class="img-fluid"
+                            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/cart-item1.jpg" alt="item1">
+                        </div>
+                        <div class="col-md-9 d-flex cart-items">
+                          <span class="item-name">Sony DSC-RX100M III</span>
+                          <span class="item-brand">Brand: Brembo</span>
+                          <span class="item-color">Color: red</span>
+                          <span class="item-quantity">1 x 1777.00</span>
+                        </div>
+                    </li>
+                  </div>
+                  <div>
+                    <li class="sekcija">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <img class="img-fluid"
+                            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/cart-item1.jpg" alt="item2">
+                        </div>
+                        <div class="col-md-9 d-flex cart-items">
+                          <span class="item-name">Sony DSC-RX100M III</span>
+                          <span class="item-brand">Brand: Brembo</span>
+                          <span class="item-color">Color: red</span>
+                          <span class="item-quantity">1 x 1777.00</span>
+                        </div>
+                    </li>
+                  </div>
+                  <div>
+                    <li class="sekcija">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <img class="img-fluid"
+                            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/cart-item1.jpg" alt="item3">
+                        </div>
+                        <div class="col-md-9 d-flex cart-items">
+                          <span class="item-name">Sony DSC-RX100M III</span>
+                          <span class="item-brand">Brand: Brembo</span>
+                          <span class="item-color">Color: red</span>
+                          <span class="item-quantity">1 x 1777.00</span>
+                        </div>
+                    </li>
+                  </div>
+                  <div>
+                    <li class="sekcija">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <img class="img-fluid"
+                            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/cart-item1.jpg" alt="item4">
+                        </div>
+                        <div class="col-md-9 d-flex cart-items">
+                          <span class="item-name">Sony DSC-RX100M III</span>
+                          <span class="item-brand">Brand: Brembo</span>
+                          <span class="item-color">Color: red</span>
+                          <span class="item-quantity">1 x 1777.00</span>
+                        </div>
+                    </li>
+                  </div>
+                  <div>
+                    <li class="sekcija">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <img class="img-fluid"
+                            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/cart-item1.jpg" alt="item5">
+                        </div>
+                        <div class="col-md-9 d-flex cart-items">
+                          <span class="item-name">Sony DSC-RX100M III</span>
+                          <span class="item-brand">Brand: Brembo</span>
+                          <span class="item-color">Color: red</span>
+                          <span class="item-quantity">1 x 1777.00</span>
+                        </div>
+                    </li>
+                  </div>
+
+                </ul>
+
+                <button type="button" class="new-slick-button mt-3 mb-3" id="dalje"><i
+                    class="fas fa-arrow-down fa-xs"></i></button>
+
+                <div class="row ">
+                  <div class="col-md-6"><a href="#" class="button2">Edit cart</a></div>
+                  <div class="col-md-6"><a href="#" class="button3">CHECKOUT</a></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </nav>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+  </script>
+  <script src="http://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script>
+    $('#shopping-cart-toggle').on('click', function (e) {
+      $('.shopping-cart-containter').toggleClass("vis-none");
+      e.preventDefault();
+    });
+  </script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.shopping-cart-blok').slick({
+        arrows: true,
+        vertical: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        verticalSwiping: true,
+        loop: false,
+        infinite: false,
+        dots: false,
+        nextArrow: document.getElementById('dalje'),
+        prevArrow: document.getElementById('nazad')
+
+      });
+    });
+  </script>
+</body>
+
+</html>
